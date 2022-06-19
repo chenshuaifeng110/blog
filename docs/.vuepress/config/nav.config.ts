@@ -3,18 +3,18 @@
  ******************************************************************************************/
 
 export default [
-  // ========== React ========== //
+  // ========== Applet ========== //
   {
-    text: "React源码",
-    link: "/react/index/",
+    text: "小程序服务商",
+    link: "/applet/index/",
     items: [
       {
-        text: "开始上手",
-        link: "/react/index/",
+        text: "前言",
+        link: "/applet/index/",
       },
       {
-        text: "基础",
-        link: "/react/basic/index/",
+        text: "基础概念",
+        link: "/applet/basic/index/",
       },
       {
         text: "调度器（Scheduler）",
