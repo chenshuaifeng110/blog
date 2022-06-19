@@ -23,7 +23,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav,
     sidebarDepth: 1,
     logo: `/assets/img/logo.png`,
-    repo: "jonsam-ng/fe-source-reading",
+    repo: "/chenshuaifeng110/blog",
     searchMaxSuggestions: 10,
     lastUpdated: "上次更新",
     docsDir: "docs",
@@ -57,20 +57,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: "jonsam", // 必需
-      link: "https://github.com/jonsam-ng" // 可选的
+      name: "chenshuaifeng110", // 必需
+      link: "https://github.com/chenshuaifeng110" // 可选的
     },
     // 博主信息 (显示在首页侧边栏)
     blogger: {
       avatar:
         "https://www.jonsam.site/wp-content/uploads/2019/10/c1fbc401c64937aaec6cb53359e7c57eabd8e477-e1570649725791.gif",
-      name: "Jonsam NG",
+      name: "搬砖蜗牛",
       slogan: "让有意义的事变得有意思，让有意思的事变得有意义!"
     },
     social,
     footer: {
       createYear: 2022,
-      copyrightInfo: `${siteName} | Made by <a href="https://www.jonsam.site" target="_blank">Jonsam</a> by ❤`
+      copyrightInfo: `${siteName} | Made by <a href="https://www.bwbz.vip/blog" target="_blank">搬砖蜗牛</a> by ❤`
     },
     // 自定义html(广告)模块
     htmlModules

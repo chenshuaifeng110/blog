@@ -9,22 +9,22 @@ export default {
     {
       iconClass: "icon-youjian",
       title: "发邮件",
-      link: "mailto:jonsam.ng@foxmail.com",
+      link: "997174616@qq.com",
     },
     {
       iconClass: "icon-github",
       title: "GitHub",
-      link: "https://github.com/jonsam-ng",
+      link: "https://github.com/chenshuaifeng110",
     },
     {
       iconClass: "icon-mao",
       title: "博客",
-      link: "https://www.jonsam.site",
+      link: "https://bwbz.vip/blog",
     },
     {
       iconClass: "icon-shuben",
       title: "文档",
-      link: "https://docs.jonsam.site",
+      link: "https://bwbz.vip/blog",
     },
     {
       iconClass: "icon-code",

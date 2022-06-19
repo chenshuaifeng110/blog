@@ -5,7 +5,7 @@
 export default [
   // ========== Applet ========== //
   {
-    text: "小程序服务商",
+    text: "微信小程序开发",
     link: "/applet/index/",
     items: [
       {
@@ -105,5 +105,5 @@ export default [
       { text: "归档", link: "/archives/" },
     ],
   },
-  { text: "博客", link: "https://www.jonsam.site" },
+  { text: "博客", link: "https://www.bwbz.vip/blog" },
 ];
