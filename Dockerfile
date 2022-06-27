@@ -7,4 +7,4 @@ COPY . /usr/src/blog
 
 EXPOSE 8084
 # 启动node应用
-ENTRYPOINT [ "npm", "dev" ]
+ENTRYPOINT [ "npm", "run", "dev" ]
