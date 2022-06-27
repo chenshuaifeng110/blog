@@ -1,4 +1,4 @@
-FROM node:latest as builder
+FROM nginx:1.20.2-alpine
 RUN mkdir -p /usr/src/blog
 WORKDIR /usr/src/blog
 COPY package.json /usr/src/blog
