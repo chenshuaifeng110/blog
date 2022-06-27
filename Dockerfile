@@ -1,8 +1,8 @@
-FROM node:16-alpine
+FROM node:13-alpine
 RUN mkdir -p /usr/src/blog
 WORKDIR /usr/src/blog
 COPY package.json /usr/src/blog
-RUN npm install --registry=http://registry.npm.taobao.org
+RUN yarn install
 COPY . /usr/src/blog
 VOLUME [ "/usr/src/blog" ]
 # RUN npm run dev 
