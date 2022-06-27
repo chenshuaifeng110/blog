@@ -1,4 +1,4 @@
-FROM node:8.0-alpine
+FROM alpine:3.15
 RUN mkdir -p /usr/src/blog
 WORKDIR /usr/src/blog
 COPY package.json /usr/src/blog
