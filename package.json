@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "bash scripts/deploy.sh",
+    "deploy": "gh-pages -d docs/.vuepress/dist",
+    "commit": "yarn build && yarn deploy",
     "editFm": "node utils/editFrontmatter.js",
     "baiduPush": "node utils/baiduPush.js https://www.bwbz.vip/blog && bash scripts/baiduPush.sh",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D"
@@ -14,6 +15,7 @@
     "@renovamen/vuepress-plugin-katex": "^0.2.0",
     "@vuepress/plugin-pwa": "^1.9.7",
     "dayjs": "^1.9.7",
+    "gh-pages": "^4.0.0",
     "gray-matter": "^4.0.3",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
