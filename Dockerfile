@@ -1,4 +1,4 @@
-FROM node:13-alpine
+FROM node
 RUN mkdir -p /usr/src/blog
 WORKDIR /usr/src/blog
 COPY package.json /usr/src/blog
