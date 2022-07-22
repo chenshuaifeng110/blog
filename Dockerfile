@@ -5,4 +5,7 @@ COPY package.json /usr/src/blog
 RUN yarn install --registry=http://registry.npm.taobao.org
 COPY . /usr/src/blog
 VOLUME [ "/usr/src/blog" ]
-EXPOSE 8084
+
+EXPOSE 8000
+# 启动node应用
+ENTRYPOINT [ "npm", "run", "dev" ]
