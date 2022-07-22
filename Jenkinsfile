@@ -1,4 +1,5 @@
 pipeline {
+    agent { label 'master'} 
     stages {
         stage('pull code') {
             steps {
