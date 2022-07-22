@@ -22,7 +22,7 @@ pipeline {
                     # 根据dockefile构建镜像
                     docker build -t blog .
                     # 启动镜像，容器端口是8000
-                    docker run --name blog --net applet  -d -p 8000:8000 blog 
+                    docker run --name blog --net applet  -d -p 8000:8080 blog 
                     # 访问blog端口
                     echo "服务运行在8000端口上"
                    '''
